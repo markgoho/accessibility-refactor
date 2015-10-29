@@ -1,0 +1,36 @@
+body {
+    background-color: #060407;
+    color: #666;
+    font-size: 10px;
+}
+.section_header {
+    background-color: #060407;
+    height: 150px;
+    padding:0px;
+    margin:0px;
+}
+.section_nav {
+    background-color: #4f2356;
+    color: #666;
+}
+.section_nav a {
+    color: #666;
+    text-decoration: none;
+}
+.section_left {
+    background-color: #2d0c28;
+}
+.section_content {
+    background-color: #483e55;
+}
+.section_right {
+    background-color: #2d0c28;
+}
+.section_footer {
+    background-color: #060407;
+}
+
+
+.section_header img {
+    height: 150px;
+}
