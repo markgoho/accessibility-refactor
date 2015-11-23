@@ -3,6 +3,9 @@ body {
     color: #666;
     font-size: 10px;
 }
+a:hover {
+    hover:none;
+}
 .section_header {
     background-color: #060407;
     height: 150px;
