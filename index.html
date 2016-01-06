@@ -1,67 +1,61 @@
+<!doctype html>
 <html>
 <head>
+    <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-    <meta name="HandheldFriendly" content="true" />
-
-    <title>WEB PAGE TITLE GOES HERE</title>
-
+    <title>Accessible Frog</title>
 </head>
 
-<body style="margin: 0px; padding: 0px; font-family: 'Trebuchet MS',verdana;">
+<body>
+  <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Accessible Frog</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">Survey</a></li>
+        </ul>
+    </div>
 
-<table width="800" style="height: 100%;" cellpadding="10" cellspacing="0" border="0">
-    <tr>
+    <header>
+      <!-- <img src="images/me.png" class="profile-image"> -->
+      <h1 class="tag name">ACCESSIBLE FROG</h1>
+      <p class="tag tagline">We make awesome music</p>
+    </header>
 
-        <!-- ============ HEADER SECTION ============== -->
-        <td colspan="3" class="section_header"><a href="index.html"><img src="img/spacecat_logo.jpg" /></a></td></tr>
+    <main >
+      <div class="card">
+        <div class="flex">
+          <img class="photo" src= "img/soul_of_the_frog.jpg">
+          <div class="information">
+            <h2>New album out now</h2>
+            <p>Soul of the Frog</p>
+            <p>Digital/CD/ 2 x LP</p>
+            <a href="#" class="buy">Purchase Here</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="card">
+        <div class="flex">
+          <img class="photo" src= "img/lead_singer.jpeg">
+          <div class="information">
+            <h2>About Our Band</h2>
+            <p>Photo booth aliquip pinterest meggings. Sapiente commodo wolf put a bird on it fingerstache gentrify, meh polaroid vegan everyday carry.</p>
+          </div>
+        </div>
+      </div>
 
-    <!-- ============ NAVIGATION BAR SECTION ============== -->
-    <tr>
-        <td colspan="3" valign="middle" height="30" class="section_nav">
-            <a href="preview.html">Preview</a>
-            |
-            <a href="contact.html">Contact</a>
-        </td>
-    </tr>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#" class="social twitter">Twitter</a></li>
+        <!-- <li><a href="#" class="social linkedin">LinkedIn</a></li>
+        <li><a href="#" class="social github">Github</a></li> -->
+      </ul>
+      <p class="copyright">Copyright 2015, Accessible Frog</p>
+    </footer>
 
-    <tr>
-        <!-- ============ LEFT COLUMN (MENU) ============== -->
-        <td width="200" valign="top" class="section_left">
-            <img src="img/tour-schedule-header.png">
-            <p>City &nbsp; Date</p>
-            <p>Portland, OR January 23</p>
-            <p>Seattle, WA &nbsp; January 25</p>
-            <p>Orlando, FL &nbsp; Feburary 08</p>
-            <p>Miami, FL &nbsp; &nbsp; Feburary 10</p>
-        </td>
-
-        <!-- ============ MIDDLE COLUMN (CONTENT) ============== -->
-        <td width="400" valign="top" class="section_content">
-
-            When the K-9's take over there is only one who can stop them...<br />
-            <br />
-
-            <b>Space Cat</b><br />
-            <br />
-            <marquee>Stay informed on the latest Space Cat details and be among the first to know of the games release <a href="contact.html">click here</a>.</marquee><br />
-            <br />
-
-            More details on Space Cat will go here.
-            <br />
-
-        </td>
-
-        <td width="200" valign="top" class="section_right">"This is the best game EVER!" <br />- testimonial</td>
-
-    </tr>
-
-    <!-- ============ FOOTER SECTION ============== -->
-    <tr><td colspan="3" align="center" height="20" class="section_footer">Copyright ©</td></tr>
-</table>
 </body>
 
-<html>
-
-
+</html>
