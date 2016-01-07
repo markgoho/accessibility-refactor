@@ -1,8 +1,26 @@
-form {
-  margin: 0 auto;
+.photo{
+  width: 60%;
+  padding: 10px;
 }
 
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
 .newsletter{
-  margin: 0;
   text-align: right;
+
+}
+
+
+
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
 }

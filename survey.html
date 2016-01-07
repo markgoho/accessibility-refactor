@@ -20,51 +20,55 @@
     </div>
 
     <header>
-  
+
     </header>
 
     <main>
       <p class= "heading">Survey</p>
       <div class="card">
         <div class="flex">
-          <img class="photo decorative" src= "img/concert01.jpg">
-          <form class = "survey">
-            <p>Who is your Favorite band Member:</p>
-            <input type="radio" name="res" value="John"> John
-            <input type="radio" name="res" value="Hazzard"> Hazzard
-            <input type="radio" name="res" value="Bob"> Bob
-            <input type="radio" name="res" value="Sally"> Sally
+          <img class="photo" src= "img/concert01.jpeg">
+          <div class="container">
+            <form class = "survey">
+              <p>Who is your Favorite band Member:</p>
+              <input type="radio" name="res" value="John" tabindex="2"> John
+              <input type="radio" name="res" value="Hazzard"> Hazzard
+              <input type="radio" name="res" value="Bob"> Bob
+              <input type="radio" name="res" value="Sally"> Sally
 
-            <p>What is your favorite Album:</p>
-            <select id="albums" name="select">
-              <option value="1">Party For An Angel</option>
-              <option value="2">A Day Of Old</option>
-              <option value="3">Finding My Shadow</option>
-              <option value="4">Diamond Fireworks</option>
-              <option value="5">Enjoy Your Desire</option>
-              <option value="6">This Is For You</option>
-              <option value="7">Music Of My Life</option>
-              <option value="8">Song For Yesterday</option>
-              <option value="9">Heroic Forever</option>
-              <option value="10">Midnight Fires</option>
-              <option value="11">Street Of The Rider</option>
-              </select>
+              <p>What is your favorite Album:</p>
+              <select id="albums" name="select" tabindex="1">
+                <option value="1">Party For An Angel</option>
+                <option value="2">A Day Of Old</option>
+                <option value="3">Finding My Shadow</option>
+                <option value="4">Diamond Fireworks</option>
+                <option value="5">Enjoy Your Desire</option>
+                <option value="6">This Is For You</option>
+                <option value="7">Music Of My Life</option>
+                <option value="8">Song For Yesterday</option>
+                <option value="9">Heroic Forever</option>
+                <option value="10">Midnight Fires</option>
+                <option value="11">Street Of The Rider</option>
+                </select>
 
-              <p>What is your favorite album:</p>
-              <textarea></textarea>
-          </form>
-
+                <p>What is your favorite album:</p>
+                <textarea></textarea>
+            </form>
+          </div>
         </div>
       </div>
       <p class= "heading">Newsletter</p>
       <div class="card">
         <div class="flex">
-          <form class = "newsletter">
-              <p>Name: <input type ="text" name="textfield"></p>
-              <p>email: <input type ="text" name="textfield"></p>
-              <p>retype email: <input type ="text" name="textfield"></p>
-              <button type="submit">Sign Up</button>
-          </form>
+          <img class="photo" src= "img/the_band.jpeg">
+            <div class="container">
+              <form class="newsletter">
+                  <p>Name: <input type ="text" name="textfield" tabindex="5"></p>
+                  <p>email: <input type ="text" name="textfield" tabindex="4"></p>
+                  <p>retype email: <input type ="text" name="textfield" tabindex="6"></p>
+                  <button type="submit" tabindex="3">Sign Up</button>
+              </form>
+            </div>
         </div>
       </div>
     </main>

@@ -65,7 +65,7 @@ header {
   height: 350px;
 }
 
-/*.tag {
+.tag {
   color: black;
   padding: 10px;
   letter-spacing: 5px;
@@ -83,7 +83,7 @@ header .name{
   padding: 20px;
   text-transform: uppercase;
   color: #781125
-}*/
+}
 
 .card {
   margin: 30px;
@@ -168,7 +168,7 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 840px) {
 
   .flex {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
