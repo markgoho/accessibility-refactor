@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/survey.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <title>Accessible Frog</title>
@@ -23,16 +24,16 @@
       <p class="tag tagline">We make awesome music</p>
     </header>
 
-    <main >
+    <main>
       <p class= "heading">Survey</p>
       <div class="card">
         <div class="flex">
-          <form>
+          <form class = "survey">
             <p>Who is your Favorite band Member:</p>
-            <input class="fav" type="radio" name="res" value="John"> John
-            <input class="fav" type="radio" name="res" value="Hazzard"> Hazzard
-            <input class="fav" type="radio" name="res" value="Bob"> Bob
-            <input class="fav" type="radio" name="res" value="Sally"> Sally
+            <input type="radio" name="res" value="John"> John
+            <input type="radio" name="res" value="Hazzard"> Hazzard
+            <input type="radio" name="res" value="Bob"> Bob
+            <input type="radio" name="res" value="Sally"> Sally
 
             <p>What is your favorite Album:</p>
             <select id="albums" name="select">
@@ -48,11 +49,24 @@
               <option value="10">Midnight Fires</option>
               <option value="11">Street Of The Rider</option>
               </select>
+
+              <p>What is your favorite album:</p>
+              <textarea></textarea>
           </form>
 
         </div>
       </div>
-
+      <p class= "heading">Newsletter</p>
+      <div class="card">
+        <div class="flex">
+          <form class = "newsletter">
+              <p>Name: <input type ="text" name="textfield"></p>
+              <p>email: <input type ="text" name="textfield"></p>
+              <p>retype email: <input type ="text" name="textfield"></p>
+              <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
       <ul>
