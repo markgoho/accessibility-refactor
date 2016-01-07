@@ -58,16 +58,14 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02.jpg') no-repeat top center ;
+  background: url('../img/concert03.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-header {
-  line-height: 1.5;
+  height: 350px;
 }
 
-.tag {
+/*.tag {
   color: black;
   padding: 10px;
   letter-spacing: 5px;
@@ -85,7 +83,8 @@ header .name{
   padding: 20px;
   text-transform: uppercase;
   color: #781125
-}
+}*/
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
