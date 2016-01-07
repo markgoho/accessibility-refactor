@@ -113,11 +113,11 @@ header .name{
   position: absolute;*/
 }
 
-.red{
+.heading{
   font-size: 2em;
   text-transform: uppercase;
   color: #781125;
-  line-height: 0;
+  margin-top: 10px;
 }
 
 footer {
