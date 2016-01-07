@@ -1,3 +1,15 @@
 pre {
   font-family: 'Open Sans', sans-serif;
 }
+
+.heading{
+    display: inline-block;
+    margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+  /*margin-top: 10px;*/
+}
