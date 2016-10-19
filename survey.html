@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <div class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -19,12 +19,12 @@
       </ul>
     </div>
 
-    <header>
+    <header role="banner">
       <div id="site-name">ACCESSIBLE FROG</div>
       <div id="site-tag">we make awesome music</div>
     </header>
 
-    <main>
+    <main role="main">
       <div class="card">
         <h1 class= "heading">Survey</h1>
         <div class="flex">
@@ -77,19 +77,20 @@
             <div class="container">
               <form class="newsletter">
                   <label for="name">Name:</label>
-                  <input id="name" type ="text" name="textfield">
+                  <input id="name" type ="text" name="textfield"><br>
                   <label for="email">Email:</label>
-                  <input id="email" type="email" name="textfield">
+                  <input id="email" type="email" name="textfield"><br>
                   <label for="retype-email">Retype Email: </label>
-                  <input id="retype-email" type="email" name="textfield">
-                  <button type="submit" class="button">Sign Up</button>
+                  <input id="retype-email" type="email" name="textfield"><br>
+                  <button type="submit" class="button" aria-describedby="submit-hint">Sign Up</button>
+                  <p id="submit-hint">Clicking submit will sign you up for the Accessible Frog newsletter</p>
               </form>
             </div>
         </div>
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter"><img src="img/twitter-32.png" alt="twitter icon"></a></li>
         <li><a href="#" class="social youtube"><img src="img/youtube-32.png" alt="youtube icon"></a></li>
