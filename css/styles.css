@@ -85,25 +85,11 @@ header {
   font-size: 3em;
 }
 
-.tag {
+/*.tag {
   color: black;
   padding: 10px;
   letter-spacing: 5px;
-}
-
-.name{
-  font-weight: 300;
-}
-
-header .name{
-  font-size: 3em;
-}
-.tagline {
-  font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: #781125
-}
+}*/
 
 .card {
   margin: 30px;
@@ -240,3 +226,39 @@ a.social:hover {
     margin: 40px auto;
   }
 }
+
+button {
+  border: none;
+}
+
+.button {
+   border-top: 1px solid #ffd6de;
+   background: #e890a1;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e890a1), to(#e890a1));
+   background: -webkit-linear-gradient(top, #e890a1, #e890a1);
+   background: -moz-linear-gradient(top, #e890a1, #e890a1);
+   background: -ms-linear-gradient(top, #e890a1, #e890a1);
+   background: -o-linear-gradient(top, #e890a1, #e890a1);
+   padding: 7px 14px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 1em;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #82515a;
+   background: #82515a;
+   color: #ffffff;
+   }
+.button:active {
+   border-top-color: #ffffff;
+   background: #ffffff;
+   }
