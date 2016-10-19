@@ -281,3 +281,11 @@ tr:hover td {
   background: #FFF;
   color: #000;
 }
+
+textarea:focus, input:focus {
+  background: lightpink;
+}
+
+.form-area {
+  margin-bottom: 15px;
+}
