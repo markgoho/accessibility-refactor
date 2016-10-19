@@ -77,9 +77,11 @@
             <div class="container">
               <form class="newsletter">
                   <label for="name">Name:</label>
-                  <input id="name" type ="text" name="textfield"><br>
+                  <input id="name" type ="text" name="textfield" aria-describedby="name-hint"><br>
+                  <p id="name-hint">Please enter your first and last name</p>
                   <label for="email">Email:</label>
-                  <input id="email" type="email" name="textfield"><br>
+                  <input id="email" type="email" name="textfield" aria-describedby="email-hint"><br>
+                  <p id="email-hint">This is the email address that we'll send the newsletter to</p>
                   <label for="retype-email">Retype Email: </label>
                   <input id="retype-email" type="email" name="textfield"><br>
                   <button type="submit" class="button" aria-describedby="submit-hint">Sign Up</button>

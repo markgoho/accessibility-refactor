@@ -295,10 +295,17 @@ a:focus {
   opacity: 1;
 }
 
-.newsletter input {
-  margin-bottom: 10px;
+
+.newsletter button {
+  margin-top: 15px;
 }
 
 #submit-hint {
   /*width: 50%;*/
+}
+
+#email-hint,
+#name-hint,
+#submit-hint {
+  margin-top: 1px;
 }
