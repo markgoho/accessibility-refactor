@@ -64,11 +64,25 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+#site-name {
+  margin-top: 145px;
+  color: #333;
+  font-size: 5.7em;
+}
+
+#site-tag {
+  margin-top: 50px;
+  color: #781125;
+  font-size: 3em;
 }
 
 .tag {
