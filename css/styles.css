@@ -262,3 +262,22 @@ button {
    border-top-color: #ffffff;
    background: #ffffff;
    }
+
+table {
+  margin-left: 15px;
+  border-collapse: collapse;
+}
+
+caption {
+  padding-bottom: 5px;
+}
+
+th, td {
+  padding: .75rem;
+  border: 1px solid #e890a1;
+}
+
+tr:hover td {
+  background: #FFF;
+  color: #000;
+}
